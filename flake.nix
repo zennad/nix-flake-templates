@@ -70,6 +70,11 @@
         description = "A simple Go package";
       };
 
+      zemplate = {
+        path = ./zemplate;
+        description = "A template to abstract sources to be built out of the builder";
+      };
+
     };
 
     defaultTemplate = self.templates.trivial;
